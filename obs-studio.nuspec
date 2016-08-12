@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <!-- Read this before publishing packages to chocolatey.org: https://github.com/chocolatey/chocolatey/wiki/CreatePackages -->
+    <id>obs-studio</id>
+    <title>Open Broadcaster Software Studio</title>
+    <version>0.15.4</version>
+    <authors>https://github.com/jp9000/OBS/graphs/contributors</authors>
+    <owners>angryhussord</owners>
+    <summary>Open Broadcaster Software is free and open source software for video recording and live streaming.</summary>
+    <description>OBS MultiPlatform is a complete rewrite of the original OBS from the ground up, with the main goals of course being multiplatform support, a more thorough feature set, and a much more powerful API. 
+
+OBS MultiPlatform will eventually support many of the advanced requested features not present in the original OBS, such as multiple stream outputs and scene previewing. It does not have these features in this release.</description>
+    <projectUrl>https://obsproject.com/</projectUrl>
+    <packageSourceUrl>https://github.com/angryhussord/choco_obs_studio</packageSourceUrl>
+    <projectSourceUrl>https://github.com/jp9000/obs-studio</projectSourceUrl>
+    <bugTrackerUrl>https://obsproject.com/mantis/my_view_page.php</bugTrackerUrl>
+    <tags>twitch open foss broadcast streaming video recording admin</tags>
+    <copyright></copyright>
+    <licenseUrl>https://github.com/jp9000/OBS/blob/master/COPYING</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <iconUrl>https://cdn.rawgit.com/angryhussord/choco_obs/master/obs_icon.PNG</iconUrl>
+    <!--<dependencies>
+      <dependency id="" version="" />
+    </dependencies>-->
+    <releaseNotes>https://obsproject.com/changelog</releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
