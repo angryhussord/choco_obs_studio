@@ -3,7 +3,7 @@
 $packageName = 'obs-studio';
 $toolsDir   = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)";
 $installerType = 'EXE';
-$url = 'https://github.com/jp9000/obs-studio/releases/download/0.15.4/OBS-Studio-0.15.4-Installer.exe';
+$url = 'https://github.com/jp9000/obs-studio/releases/download/0.16.5/OBS-Studio-0.16.5-Full-Installer.exe';
 $url64 = $url;
 
 $packageArgs = @{
@@ -15,7 +15,7 @@ $packageArgs = @{
   silentArgs    = '/S'
   validExitCodes= @(0)
   softwareName  = 'obs-studio*'
-  checksum      = '309C3A6FB82688C70BE9659173A7A1E40026FC35776E78DEF48578EA0435E930'
+  checksum      = 'F7FB9A6CCA1A59356837C61F1BB9536EB1A0B45CA6FDA8D0185D9D7CEA82CBC3'
   checksumType  = 'sha256'
 };
 
