@@ -5,7 +5,7 @@
     <!-- Read this before publishing packages to chocolatey.org: https://github.com/chocolatey/chocolatey/wiki/CreatePackages -->
     <id>obs-studio</id>
     <title>Open Broadcaster Software Studio</title>
-    <version>20.0.1</version>
+    <version>20.1.1</version>
     <authors>https://github.com/jp9000/OBS/graphs/contributors</authors>
     <owners>angryhussord</owners>
     <summary>Open Broadcaster Software is free and open source software for video recording and live streaming.</summary>
