@@ -3,8 +3,8 @@
 $packageName = 'obs-studio';
 $toolsDir   = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)";
 $installerType = 'EXE';
-$url = 'https://cdn-fastly.obsproject.com/downloads/OBS-Studio-22.0.1-Full-Installer-x86.exe';
-$url64 = 'https://cdn-fastly.obsproject.com/downloads/OBS-Studio-22.0.1-Full-Installer-x64.exe';
+$url = 'https://cdn-fastly.obsproject.com/downloads/OBS-Studio-22.0.2-Full-Installer-x86.exe';
+$url64 = 'https://cdn-fastly.obsproject.com/downloads/OBS-Studio-22.0.2-Full-Installer-x64.exe';
 
 $packageArgs = @{
   packageName   = $packageName
@@ -15,9 +15,9 @@ $packageArgs = @{
   silentArgs    = '/S'
   validExitCodes= @(0)
   softwareName  = 'obs-studio*'
-  checksum      = '5A3C9716070AD45D8011346CFDDE7D62BD9FE94EEDFAFB45D487D61A725854AD'
+  checksum      = '9AB68E33C3A47BAD5C7068E2DB4622DA408AD8F21408DB94D5DFC3C96EA035F7'
   checksumType  = 'sha256'
-  checksum64      = '6B2A79EEFEDD6F34E3BEABEC7D6DE4FACB552DB10D179EF08B66A7C0F02DA908'
+  checksum64      = 'C6F01CEC8C7C8A8512F9051247DE4CB7B3CB89EC5EC76E53D6826BBE23966350'
   checksumType64  = 'sha256'
 };
 
