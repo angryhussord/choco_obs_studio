@@ -4,27 +4,27 @@
   <metadata>
     <!-- Read this before publishing packages to chocolatey.org: https://github.com/chocolatey/chocolatey/wiki/CreatePackages -->
     <id>obs-studio</id>
-    <title>Open Broadcaster Software Studio</title>
+    <title>OBS Studio</title>
     <version>23.0.1</version>
-    <authors>https://github.com/jp9000/OBS/graphs/contributors</authors>
+    <authors>https://github.com/obsproject/obs-studio/graphs/contributors</authors>
     <owners>angryhussord</owners>
-    <summary>Open Broadcaster Software is free and open source software for video recording and live streaming.</summary>
-    <description>OBS MultiPlatform is a complete rewrite of the original OBS from the ground up, with the main goals of course being multiplatform support, a more thorough feature set, and a much more powerful API. 
+    <summary>OBS Studio (also known as Open Broadcaster Software, or OBS) is a screen-casting and live-streaming software available across multiple platforms including macOS, Windows and Linux.</summary>
+    <description>Boasting features typically only found in commercial screen recording apps, OBS also provides one of the simplest workflows with an intuitive and easy-to-learn interface that makes recording and streaming a breeze. It's also totally free and open-source.
 
-OBS MultiPlatform will eventually support many of the advanced requested features not present in the original OBS, such as multiple stream outputs and scene previewing. It does not have these features in this release.</description>
+High performance real time video/audio capturing and mixing. Create scenes made up of multiple sources including window captures, images, text, browser windows, webcams, capture cards and more.</description>
     <projectUrl>https://obsproject.com/</projectUrl>
     <packageSourceUrl>https://github.com/angryhussord/choco_obs_studio</packageSourceUrl>
-    <projectSourceUrl>https://github.com/jp9000/obs-studio</projectSourceUrl>
+    <projectSourceUrl>https://github.com/obsproject/obs-studio</projectSourceUrl>
     <bugTrackerUrl>https://obsproject.com/mantis/my_view_page.php</bugTrackerUrl>
     <tags>twitch open foss broadcast streaming video recording admin</tags>
     <copyright></copyright>
-    <licenseUrl>https://github.com/jp9000/OBS/blob/master/COPYING</licenseUrl>
+    <licenseUrl>https://github.com/obsproject/obs-studio/blob/master/COPYING</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <iconUrl>https://cdn.rawgit.com/angryhussord/choco_obs/master/obs_icon.PNG</iconUrl>
     <!--<dependencies>
       <dependency id="" version="" />
     </dependencies>-->
-    <releaseNotes>https://obsproject.com/changelog</releaseNotes>
+    <releaseNotes>https://github.com/obsproject/obs-studio/releases</releaseNotes>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />
