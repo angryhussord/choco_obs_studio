@@ -3,20 +3,22 @@
 $packageName = 'obs-studio';
 $toolsDir   = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)";
 $installerType = 'EXE';
-$url = 'https://github.com/obsproject/obs-studio/releases/download/21.1.2/OBS-Studio-21.1.2-Full-Installer.exe';
-$url64 = $url;
+$url = 'https://cdn-fastly.obsproject.com/downloads/OBS-Studio-23.0.1-Full-Installer-x86.exe';
+$url64 = 'https://cdn-fastly.obsproject.com/downloads/OBS-Studio-23.0.1-Full-Installer-x64.exe';
 
 $packageArgs = @{
   packageName   = $packageName
   unzipLocation = $toolsDir
   fileType      = $installerType
   url           = $url
-  url64bit      = $url
+  url64bit      = $url64
   silentArgs    = '/S'
   validExitCodes= @(0)
   softwareName  = 'obs-studio*'
-  checksum      = '6B4F1B5EB8BD4EA1D1362B99F308A8F792C2B464156F733E880080D041892411'
+  checksum      = '290D7E460A1D429608D9AB9FE94207213AE60BD715096A7CB4B9F68E071BD292'
   checksumType  = 'sha256'
+  checksum64      = '9D3727DC654ADAE7FD25A4301C0FB9384427F744779879F7A02C2DA7005D74EE'
+  checksumType64  = 'sha256'
 };
 
 Install-ChocolateyPackage @packageArgs;
